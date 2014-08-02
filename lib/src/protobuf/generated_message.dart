@@ -231,8 +231,8 @@ abstract class GeneratedMessage {
     }
   }
 
-  final Map<int, dynamic> _fieldValues = new Map<int, dynamic>();
-  final Map<int, Extension> _extensions = new Map<int, Extension>();
+  final Map<int, dynamic> _fieldValues = new HashMap<int, dynamic>();
+  final Map<int, Extension> _extensions = new HashMap<int, Extension>();
   final UnknownFieldSet unknownFields = new UnknownFieldSet();
 
   GeneratedMessage();
